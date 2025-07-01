@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just Me.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #2c2c2c;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      backdrop-filter: blur(4px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .container:hover {
+      transform: scale(1.01);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffcb6b;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    .highlight {
+      color: #82aaff;
+      font-weight: bold;
+    }
+
+    .thanks {
+      color: #c792ea;
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+
+    .highlight2 {
+      color: red;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      body {
+        color: #ffffff;
+      }
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .now-playing {
+      margin-top: 2rem;
+      background-color: #3a3a3a;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Oh, You Actually Clicked?</h1>
+    <p class="thanks">Bold move. But hey, thanks for being curious.</p>
+    <p>I'm <span class="highlight">Kirangtsungba Longchar</span> — though some know me better as <span class="highlight">MasterMind</span> or <span class="highlight">Mr. Scandalous</span>. The first? For sneaking in last-minute and becoming Sports Secretary. The second? Let’s just say charm can get chaotic.</p>
+    <p>I speak <span class="highlight2">Ao</span> and <span class="highlight2">Sumi</span> — grounding me in my roots — and <span class="highlight">Hindi</span> and <span class="highlight">English</span> to navigate everything else. I’m <span class="highlight2">tall</span>, observant, and prefer meaningful presence over loud noise. I don’t always speak, but when I do, I make it count.</p>
+    <p>Studied <span class="highlight">Computer Applications</span> at ICFAI. I entered from an Arts background, but found my rhythm in code with the help of the MADSKI crew — <span class="highlight">Mr. AI (Dipayan)</span>, <span class="highlight">Subhayu</span>, and <span class="highlight">Mani</span>. We built our final project together, made memories in the hostel, and were the unofficial kings of leftover snacks from campus events.</p>
+    <p>I’ve built APIs, explored machine learning, and even considered the <span class="highlight2">Indian Army</span> — tech track, of course. While the path shifted, the spirit didn’t.</p>
+    <p>My playlist is a map of my moods — <span class="highlight">Giveon</span> when I feel, <span class="highlight">One Direction</span> for the chaos, <span class="highlight">SZA</span> when I reflect, and <span class="highlight">Arctic Monkeys</span> when I need poetry in distortion. Toss in some old-school metal and you get the picture — if it hits the soul, I’m in.</p>
+    <p><span class="highlight2">Sarcasm</span> is fluent. <span class="highlight2">Dark humor</span> is comfort. I’m the quiet kind who watches everything and waits for the perfect moment to strike — usually with a dry punchline or an unexpected insight.</p>
+    <p>My sister — the real boss — runs a café and somehow dances through pressure. I stay behind the curtain, pushing pixels and staying loyal to the grind.</p>
+    <p>They called me <span class="highlight">Mr. Ethnic</span> at freshers. I haunted the <span class="highlight">Thursday Bazar</span> for budget finds with <span class="highlight">Miss Ro</span>. And even now, I wrestle with math and code — but I keep showing up. Because showing up matters.</p>
+    <p>You’ve seen the unfiltered version. The side that most don’t. Hold onto it, or let it go — either way, you were here. That counts for something.</p>
+
+    <div class="now-playing">
+      <p><span class="highlight">Now Playing:</span> <em>I Wanna Be Yours</em> by Arctic Monkeys</p>
+      <audio controls>
+        <source src="I Wanna Be Yours - Arctic Monkeys.m4a" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <footer>
+    Still here? You really <em>are</em> curious. Respect.
+  </footer>
+</body>
+</html>
